@@ -1,0 +1,67 @@
+{
+	"name": "Z_Balloon",
+	"plugin-id": "Sprite",
+	"sid": 385278581804455,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 284183721424759
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 13,
+						"height": 15,
+						"originX": 0.5384615384615384,
+						"originY": 1.5333333333333334,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3466278,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 13,
+						"height": 13,
+						"originX": 0.5384615384615384,
+						"originY": 1.6153846153846154,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4772222,
+						"collisionPoly": {
+							"points": [
+								0.15384615384615385,
+								0.07692307692307693,
+								0.46153846153846156,
+								0,
+								0.8461538461538461,
+								0,
+								0.46153846153846156,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 107814084206162,
+				"name": "Default",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 4
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"name": "MenLogou",
+	"plugin-id": "Sprite",
+	"sid": 193141011916117,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 979577227335039
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 0.5416666666666666,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 666946,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 420049010244790,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

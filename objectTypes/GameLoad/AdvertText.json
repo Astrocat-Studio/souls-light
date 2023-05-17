@@ -1,0 +1,15 @@
+{
+	"name": "AdvertText",
+	"plugin-id": "Text",
+	"sid": 835495371840489,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 930383732287273
+		}
+	],
+	"effectTypes": []
+}

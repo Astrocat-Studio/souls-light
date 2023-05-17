@@ -1,0 +1,63 @@
+{
+	"name": "ManuBotaum",
+	"plugin-id": "Sprite",
+	"sid": 280184211174298,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Initiating",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 174728075846040
+		},
+		{
+			"name": "MenuStart",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 544610925315344
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 604643057970307
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "tint",
+			"name": "Tint"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 48,
+						"height": 19,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8391487,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 892419264071286,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

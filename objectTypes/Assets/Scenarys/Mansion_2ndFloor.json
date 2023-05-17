@@ -1,0 +1,57 @@
+{
+	"name": "Mansion_2ndFloor",
+	"plugin-id": "Sprite",
+	"sid": 801556868934230,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 391,
+						"height": 90,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4456448,
+						"collisionPoly": {
+							"points": [
+								0.017902813299232736,
+								0.07777777777777778,
+								0.5,
+								0.12222222222222222,
+								0.9820971867007673,
+								0.07777777777777778,
+								0.9923273657289002,
+								0.5,
+								0.9872122762148338,
+								0.9444444444444444,
+								0.5,
+								0.9,
+								0.015345268542199489,
+								0.9333333333333333,
+								0.01278772378516624,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 536923144284019,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

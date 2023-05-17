@@ -1,0 +1,110 @@
+{
+	"name": "$GameVariables",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "isFullscreen",
+			"type": "string",
+			"initialValue": "False",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 678509974063900
+		},
+		{
+			"eventType": "variable",
+			"name": "MusicPlaying",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 236175010212629
+		},
+		{
+			"eventType": "variable",
+			"name": "WidthResolution",
+			"type": "number",
+			"initialValue": "1920",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 800109811399279
+		},
+		{
+			"eventType": "variable",
+			"name": "HeightResolution",
+			"type": "number",
+			"initialValue": "1080",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 653208013782550
+		},
+		{
+			"eventType": "comment",
+			"text": "------- Variavies do Pogresso"
+		},
+		{
+			"eventType": "variable",
+			"name": "LastEncounter",
+			"type": "number",
+			"initialValue": "-1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 972577347760863
+		},
+		{
+			"eventType": "variable",
+			"name": "DepressiveDestiny",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 419122521609955
+		},
+		{
+			"eventType": "variable",
+			"name": "SoberboDestiny",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 285801392239291
+		},
+		{
+			"eventType": "variable",
+			"name": "DecisionNumber",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 721320459068915
+		},
+		{
+			"eventType": "variable",
+			"name": "FinalDecisionStep",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 504908185201891
+		},
+		{
+			"eventType": "variable",
+			"name": "Dead",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 335439403843594
+		}
+	],
+	"sid": 219767514237832
+}

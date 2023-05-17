@@ -1,0 +1,253 @@
+{
+	"name": "@Credits",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 167632571877375
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 443512967829009,
+					"parameters": {
+						"seconds": "0.25"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 849761686547321,
+					"parameters": {
+						"layer": "\"Soul's Light\"",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 441431969715853,
+					"parameters": {
+						"audio-file": "Credits_Song",
+						"loop": "looping",
+						"volume": "-8",
+						"stereo-pan": "0",
+						"tag-optional": "\"GameMusic\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 728120660306314,
+					"parameters": {
+						"seconds": "3.2"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 847668043061004,
+					"parameters": {
+						"layer": "\"Soul's Light\"",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 213477716917103,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 899183570317941,
+					"parameters": {
+						"layer": "6",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 747220800806224,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 130988915925847,
+					"parameters": {
+						"layer": "6",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 704556065836950,
+					"parameters": {
+						"layer": "5",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 947501757337391,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 565758422972799,
+					"parameters": {
+						"layer": "5",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 695122327493375,
+					"parameters": {
+						"layer": "4",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 268327322676590,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 931570502966640,
+					"parameters": {
+						"layer": "4",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 563934028978823,
+					"parameters": {
+						"layer": "3",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 118039834637027,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 283820315741946,
+					"parameters": {
+						"layer": "3",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 397742075989387,
+					"parameters": {
+						"layer": "2",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 562934610688233,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 102737144355468,
+					"parameters": {
+						"layer": "2",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 137879676248857,
+					"parameters": {
+						"layer": "1",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 979172973134131,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "fade-volume",
+					"objectClass": "Audio",
+					"sid": 964755826350627,
+					"parameters": {
+						"tag": "\"GameMusic\"",
+						"db": "-100",
+						"duration": "4",
+						"ending": "stop"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "LayoutFadeTransitor",
+					"sid": 543490661198805,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 277668522666451,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 248541204944110,
+					"parameters": {
+						"layout": "Main Menu"
+					}
+				}
+			],
+			"sid": 271544656359716
+		}
+	],
+	"sid": 551697992829411
+}

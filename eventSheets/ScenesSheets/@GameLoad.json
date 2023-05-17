@@ -1,0 +1,815 @@
+{
+	"name": "@GameLoad",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "ResolutionAdjust",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"functionName": "AdjustResolution",
+					"functionCopyPicked": false,
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [],
+					"sid": 342620831073799,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 526313453261938,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1280"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 187633134471664,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "720"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 111645221541588,
+									"parameters": {
+										"width": "854"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 747975763734617,
+									"parameters": {
+										"height": "480"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 459194375924258,
+									"parameters": {
+										"x": "213"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 404942528726468,
+									"parameters": {
+										"y": "120"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 480571110751925,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 474407145973841
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 584777685014019,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1360"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 790331104852723,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "768"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 890980813108446,
+									"parameters": {
+										"width": "854"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 832744415057423,
+									"parameters": {
+										"height": "480"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 653745621435452,
+									"parameters": {
+										"x": "253"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 921278410083761,
+									"parameters": {
+										"y": "144"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 379876563316646,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 951067910306900
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 942052197681217,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1366"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 767774332169404,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "768"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 236639421429572,
+									"parameters": {
+										"width": "854"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 866894001638232,
+									"parameters": {
+										"height": "480"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 832487894689322,
+									"parameters": {
+										"x": "256"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 837366333325391,
+									"parameters": {
+										"y": "144"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 208255729393726,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 459585076402378
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 139540494625101,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1600"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 980103469677170,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "900"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 817621669785025,
+									"parameters": {
+										"width": "1280"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 116776311757902,
+									"parameters": {
+										"height": "720"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 603707441786137,
+									"parameters": {
+										"x": "160"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 234175340138481,
+									"parameters": {
+										"y": "90"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 278118755050334,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 760842819635333
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 774325548935849,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1440"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 433864801077306,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "900"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 286826369336024,
+									"parameters": {
+										"width": "854"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 929889431721380,
+									"parameters": {
+										"height": "480"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 787468920722345,
+									"parameters": {
+										"x": "293"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 346260184216356,
+									"parameters": {
+										"y": "210"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 215037466065735,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 626355900627135
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 186355401440352,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1920"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 878736521893656,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "1080"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 583693814949429,
+									"parameters": {
+										"width": "1280"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 247071132933463,
+									"parameters": {
+										"height": "720"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 141022966594568,
+									"parameters": {
+										"x": "320"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 478833550603623,
+									"parameters": {
+										"y": "180"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 871374327772412,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 113041959942705
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 395342057074370,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "3840"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 938481117023037,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 0,
+										"second-value": "2160"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-width",
+									"objectClass": "NWjs",
+									"sid": 888278693075678,
+									"parameters": {
+										"width": "1600"
+									}
+								},
+								{
+									"id": "set-height",
+									"objectClass": "NWjs",
+									"sid": 451937896159224,
+									"parameters": {
+										"height": "900"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "NWjs",
+									"sid": 268700602757259,
+									"parameters": {
+										"x": "1120"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "NWjs",
+									"sid": 700317381077058,
+									"parameters": {
+										"y": "630"
+									}
+								},
+								{
+									"id": "set-resizable",
+									"objectClass": "NWjs",
+									"sid": 153797658205045,
+									"parameters": {
+										"mode": "not-resizable"
+									}
+								}
+							],
+							"sid": 550103289650431
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 979011948751270,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 0,
+										"second-value": "1280"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 978873358856014,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 462270884110774,
+											"parameters": {
+												"first-value": "Browser.ScreenHeight",
+												"comparison": 0,
+												"second-value": "1024"
+											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 178582605744000,
+											"parameters": {
+												"first-value": "Browser.ScreenHeight",
+												"comparison": 0,
+												"second-value": "960"
+											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 920369680141294,
+											"parameters": {
+												"first-value": "Browser.ScreenHeight",
+												"comparison": 0,
+												"second-value": "800"
+											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 288657876198649,
+											"parameters": {
+												"first-value": "Browser.ScreenHeight",
+												"comparison": 0,
+												"second-value": "768"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "request-fullscreen",
+											"objectClass": "Browser",
+											"sid": 267499535414859,
+											"parameters": {
+												"mode": "stretch-letterbox-scale",
+												"navigation-ui": "auto"
+											}
+										}
+									],
+									"sid": 611277495286459,
+									"isOrBlock": true
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 966144471971911,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 1,
+										"second-value": "1280"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 145930835294667,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 1,
+										"second-value": "1360"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 341065539212190,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 1,
+										"second-value": "1366"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 143637151963814,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 1,
+										"second-value": "1600"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 419748465061900,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 1,
+										"second-value": "900"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 909743154024516,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 1,
+										"second-value": "1920"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 963014281732986,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 1,
+										"second-value": "1080"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 881080534630883,
+									"parameters": {
+										"first-value": "Browser.ScreenWidth",
+										"comparison": 1,
+										"second-value": "3840"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 789576225302702,
+									"parameters": {
+										"first-value": "Browser.ScreenHeight",
+										"comparison": 1,
+										"second-value": "2160"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "request-fullscreen",
+									"objectClass": "Browser",
+									"sid": 804648529223845,
+									"parameters": {
+										"mode": "stretch-letterbox-scale",
+										"navigation-ui": "auto"
+									}
+								}
+							],
+							"sid": 861579631010070
+						}
+					]
+				}
+			],
+			"sid": 602054195931062
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 186562586127254
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "AdjustResolution",
+					"sid": 350662519381497
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 418455655509704,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "CosmicCreepsLogo",
+					"sid": 654488767504913,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 165237354258246,
+					"parameters": {
+						"audio-file": "SFX_CosmicCreepsLogo",
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 910968379257900,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CosmicCreepsLogo",
+					"sid": 827310301335093,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 835594191621836
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "CosmicCreepsLogo",
+					"sid": 840399248521376
+				}
+			],
+			"actions": [
+				{
+					"id": "start-fade",
+					"objectClass": "AstroCatLogo",
+					"sid": 959320554934031,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 552308512187536
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "AstroCatLogo",
+					"sid": 182040126988109
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-fade",
+					"objectClass": "LogoOfAcademy",
+					"sid": 753753945566950,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "AdvertText",
+					"sid": 939962165942191,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 509119719165056
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "LogoOfAcademy",
+					"sid": 578748442895210
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 167650034113317,
+					"parameters": {
+						"layout": "Main Menu"
+					}
+				}
+			],
+			"sid": 228237031890602
+		}
+	],
+	"sid": 474436686855063
+}

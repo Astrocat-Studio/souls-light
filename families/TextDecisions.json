@@ -1,0 +1,14 @@
+{
+	"name": "TextDecisions",
+	"plugin-id": "Text",
+	"sid": 990824963451411,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"textDecision1",
+		"textDecision2",
+		"textDecision3",
+		"textDecision4"
+	]
+}

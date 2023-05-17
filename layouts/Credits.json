@@ -1,0 +1,1047 @@
+{
+	"name": "Credits",
+	"layers": [
+		{
+			"name": "BG",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [],
+			"sid": 551064867415382,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.054901960784313725,
+				0.058823529411764705,
+				0.0784313725490196,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Logos",
+			"overriden": 0,
+			"subLayers": [
+				{
+					"name": "End",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "Jogo desenvolvido pela equipe [color=#ff9900]Cosmic Creeps[/color] em 02/04/2023 para a Game jam [color=#ffff66]FarmandoXP[/color] com o tema \"Luz\".\n\nParticipação de integrantes da [color=#6699ff]Astrocat Studio[/color].\n",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 160,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 34.398315434168396,
+								"y": 44.21052429133662,
+								"width": 91.20783976431653,
+								"height": 20.382212224330097,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "AstroCatLogo",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 161,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 3,
+										"fade-out-time": 0.2,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 80.00000299969766,
+								"y": 71.21052429133661,
+								"width": 35.986062606134766,
+								"height": 12.211001019160335,
+								"originX": 0.5,
+								"originY": 0.5,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "farmandoxp",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 162,
+							"instanceVariables": {},
+							"behaviors": {},
+							"world": {
+								"x": 79.29783891133694,
+								"y": 25.21052429133662,
+								"width": 48.70190571035698,
+								"height": 24.94076832225894,
+								"originX": 0.4855824682814302,
+								"originY": 0.5022522522522522,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 885015634830196,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "Fourth Credits",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Programador[/color]\n[color=#ffff66](Remake)[/color]\nRafael Gomes\n[color=#6699ff]@neobitdev[/color]",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 158,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87039952164666,
+								"y": 25.055757315346646,
+								"width": 30.263953737884094,
+								"height": 20.382212224330097,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]QA & Game Tester[/color]\n[color=#ffff66](Remake)[/color]\nGabriel Tochetto",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 159,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87039952164665,
+								"y": 43.21740737380931,
+								"width": 30.263953737884094,
+								"height": 21.720200295852642,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 797121466267796,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "Third Credits",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Programador [/color]\n[color=#ffff66](Game Jam Version)[/color]\nGustavo Leme",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 153,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87040156898914,
+								"y": 26.555758592406242,
+								"width": 30.263953737884094,
+								"height": 20.382212224330097,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Programador[/color]\n[color=#ffff66](Game Jam Version)[/color]\nThomas Allen Silva",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 154,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87040156898912,
+								"y": 41.717408650868904,
+								"width": 30.263953737884094,
+								"height": 21.720200295852642,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 584180676962777,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "Second Credits",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Arte & Animação[/color]\nKaori Fujisawa\n[color=#6699ff]@yumykon[/color]",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 144,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87040242384741,
+								"y": 26.555756011947828,
+								"width": 30.263953737884094,
+								"height": 16.666317064392402,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Trilha Sonora & SFX[/color]\nRafael Manso\n[color=#6699ff]@rafaelmanso[/color]",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 152,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.8704024238474,
+								"y": 41.71740607041049,
+								"width": 30.263953737884094,
+								"height": 21.720200295852642,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 103945872956903,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "First Credits",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Produção e Revisão[/color]\nJuliana Almeida\n[color=#6699ff]@Juhuriel[/color]",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 143,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87040124949846,
+								"y": 26.555758958182835,
+								"width": 30.263953737884094,
+								"height": 16.666317064392402,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "AdvertText",
+							"properties": {
+								"text": "[color=#ff9900]Game Design & Roteiro[/color]\nRafael Gomes\n[color=#6699ff]@neobitdev[/color]",
+								"enable-bbcode": true,
+								"font": "Pixel-UniCode",
+								"size": 3,
+								"line-height": -4,
+								"bold": false,
+								"italic": false,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left",
+								"read-aloud": false
+							},
+							"uid": 145,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0.2,
+										"wait-time": 6,
+										"fade-out-time": 1,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 64.87040124949844,
+								"y": 41.7174090166455,
+								"width": 30.263953737884094,
+								"height": 21.720200295852642,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0.00021914991615436252,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 998533541676919,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "Cosmic Creeps",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "CosmicCreepsLogo",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 141,
+							"instanceVariables": {},
+							"behaviors": {
+								"Fade": {
+									"properties": {
+										"fade-in-time": 0,
+										"wait-time": 0,
+										"fade-out-time": 0.4,
+										"destroy": true,
+										"enabled": false,
+										"live-preview": false
+									}
+								},
+								"Sine": {
+									"properties": {
+										"movement": "vertical",
+										"wave": "sine",
+										"period": 4,
+										"period-random": 0,
+										"period-offset": 0,
+										"period-offset-random": 0,
+										"magnitude": 1,
+										"magnitude-random": 0,
+										"enabled": true,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 80.00000156744834,
+								"y": 45.00000092511636,
+								"width": 55.39484551139857,
+								"height": 55.39484551139857,
+								"originX": 0.5,
+								"originY": 0.5,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 243079656858025,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "Soul's Light",
+					"overriden": 0,
+					"subLayers": [],
+					"instances": [
+						{
+							"type": "MenLogou",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 75,
+							"instanceVariables": {},
+							"behaviors": {
+								"Sine": {
+									"properties": {
+										"movement": "vertical",
+										"wave": "sine",
+										"period": 4,
+										"period-random": 0,
+										"period-offset": 0,
+										"period-offset-random": 0,
+										"magnitude": 1,
+										"magnitude-random": 0,
+										"enabled": true,
+										"live-preview": false
+									}
+								}
+							},
+							"world": {
+								"x": 80.00000286558752,
+								"y": 46.99999746463541,
+								"width": 150,
+								"height": 48,
+								"originX": 0.5,
+								"originY": 0.5416666666666666,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						}
+					],
+					"sid": 143534223107018,
+					"effectTypes": [],
+					"isInitiallyVisible": false,
+					"isInitiallyInteractive": true,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 1,
+					"parallaxY": 1,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "3d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				}
+			],
+			"instances": [],
+			"sid": 386807831854200,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Fade",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "LayoutFadeTransitor",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 163,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 4,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 79.99999984334765,
+						"y": 44.9999999959859,
+						"width": 160,
+						"height": 90,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 850838521561416,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 311506779722355,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 160,
+	"height": 90,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "@Credits"
+}

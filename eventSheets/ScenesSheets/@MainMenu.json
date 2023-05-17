@@ -1,0 +1,387 @@
+{
+	"name": "@MainMenu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 224076183613042
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 725069443665345,
+					"parameters": {
+						"variable": "Dead",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 115974358223472
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 843282758537177,
+					"parameters": {
+						"object": "ManuBotaum"
+					}
+				},
+				{
+					"id": "is-flashing",
+					"objectClass": "ManuBotaum",
+					"sid": 939269388357074,
+					"behaviorType": "Flash",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "ManuBotaum",
+					"sid": 603600431176774,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"Tint\""
+					}
+				}
+			],
+			"sid": 770331678560553
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 781132275229804,
+					"parameters": {
+						"object": "ManuBotaum"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-flashing",
+					"objectClass": "ManuBotaum",
+					"sid": 837034293048923,
+					"behaviorType": "Flash",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "ManuBotaum",
+					"sid": 335667551795225,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Tint\""
+					}
+				}
+			],
+			"sid": 282798524713175
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 604393536176868,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ManuBotaum"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "ManuBotaum",
+					"sid": 243366116242612,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "ManuBotaum",
+					"sid": 324225986000640,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 413638157806949,
+					"parameters": {
+						"audio-file": "SFX_MainMenuButton",
+						"loop": "not-looping",
+						"volume": "-8",
+						"stereo-pan": "0",
+						"tag-optional": "\"SFX\""
+					}
+				}
+			],
+			"sid": 472999831882444
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 212570842250848,
+					"parameters": {
+						"gamepad": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "ManuBotaum",
+					"sid": 824609832019139,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Tint\""
+					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "ManuBotaum",
+					"sid": 105165496546818,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 298754525243176,
+					"parameters": {
+						"audio-file": "SFX_MainMenuButton",
+						"loop": "not-looping",
+						"volume": "-8",
+						"stereo-pan": "0",
+						"tag-optional": "\"SFX\""
+					}
+				}
+			],
+			"sid": 616242712073241
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-flash-ended",
+					"objectClass": "ManuBotaum",
+					"sid": 114198108268239,
+					"behaviorType": "Flash"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "ManuBotaum",
+					"sid": 196539651400591,
+					"parameters": {
+						"instance-variable": "Initiating",
+						"value": "true"
+					}
+				},
+				{
+					"id": "fade-volume",
+					"objectClass": "Audio",
+					"sid": 902063793892798,
+					"parameters": {
+						"tag": "\"GameMusic\"",
+						"db": "-100",
+						"duration": "1",
+						"ending": "stop"
+					}
+				}
+			],
+			"sid": 416011538941047
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ManuBotaum",
+					"sid": 478587146510609,
+					"parameters": {
+						"instance-variable": "Initiating"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-opacity",
+					"objectClass": "System",
+					"sid": 779044115029838,
+					"parameters": {
+						"layer": "\"Fade\"",
+						"opacity": "lerp(LayerOpacity(\"Fade\"), 100, 0.05)"
+					}
+				}
+			],
+			"sid": 612541979551981
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ManuBotaum",
+					"sid": 614581489726611,
+					"parameters": {
+						"instance-variable": "Initiating"
+					}
+				},
+				{
+					"id": "compare-layer-opacity",
+					"objectClass": "System",
+					"sid": 814206072528639,
+					"parameters": {
+						"layer": "\"Fade\"",
+						"comparison": 4,
+						"opacity": "98"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 671640694714131,
+					"parameters": {
+						"layout": "Start_Judgment_Hall"
+					}
+				}
+			],
+			"sid": 121459717371474
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ManuBotaum",
+					"sid": 838978656872847,
+					"parameters": {
+						"instance-variable": "MenuStart"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-opacity",
+					"objectClass": "System",
+					"sid": 673186683158508,
+					"parameters": {
+						"layer": "\"Fade\"",
+						"opacity": "lerp(LayerOpacity(\"Fade\"), 0, 0.05)"
+					}
+				}
+			],
+			"sid": 243307229714540
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-layer-opacity",
+					"objectClass": "System",
+					"sid": 804629241082975,
+					"parameters": {
+						"layer": "\"Fade\"",
+						"comparison": 2,
+						"opacity": "45"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ManuBotaum",
+					"sid": 155045808042257,
+					"parameters": {
+						"instance-variable": "MenuStart"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 611711820487001
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "SmoothAudioStarter",
+					"sid": 980293484088245,
+					"parameters": [
+						"\"GameStartv2\""
+					]
+				}
+			],
+			"sid": 177169499960105
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-layer-opacity",
+					"objectClass": "System",
+					"sid": 590692679706051,
+					"parameters": {
+						"layer": "\"Fade\"",
+						"comparison": 2,
+						"opacity": "1"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ManuBotaum",
+					"sid": 884125725872609,
+					"parameters": {
+						"instance-variable": "MenuStart"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 142675018752701
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "ManuBotaum",
+					"sid": 967862634641761,
+					"parameters": {
+						"instance-variable": "MenuStart",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 185287785336434
+		}
+	],
+	"sid": 531309792971903
+}

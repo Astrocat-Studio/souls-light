@@ -1,0 +1,84 @@
+{
+	"name": "Barrier",
+	"plugin-id": "Sprite",
+	"sid": 651431181603833,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 729529980306109
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 489733605064775
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 40,
+						"height": 40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2243965,
+						"collisionPoly": {
+							"points": [
+								0.425,
+								0.05,
+								0.575,
+								0.05,
+								0.575,
+								0.8999999978807238,
+								0.425,
+								0.9
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 40,
+						"height": 40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2576451,
+						"collisionPoly": {
+							"points": [
+								0.075,
+								0.125,
+								0.9249999447663642,
+								0.12500001337793093,
+								0.925,
+								0.875,
+								0.075,
+								0.875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 710713828282779,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

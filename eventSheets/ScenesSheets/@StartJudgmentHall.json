@@ -1,0 +1,587 @@
+{
+	"name": "@StartJudgmentHall",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "@Main"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 985391200003964
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "SmoothAudioStarter",
+					"sid": 347890017224252,
+					"parameters": [
+						"\"GameStart_Song\""
+					]
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "Player",
+					"sid": 475370886890339,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Player",
+					"sid": 756825259651706,
+					"parameters": {
+						"instance-variable": "BlockedToCutscene",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "oCamera",
+					"sid": 871608854115910,
+					"parameters": {
+						"x": "176",
+						"y": "144"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 189986885386363,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "LayoutFadeTransitor",
+					"sid": 203784593345221,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "set-max-speed",
+					"objectClass": "oCamera",
+					"sid": 984997049291583,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"max-speed": "8"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "oCamera",
+					"sid": 762929611789804,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"speed": "8"
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "oCamera",
+					"sid": 322563244193738,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "wait-for-signal",
+					"objectClass": "System",
+					"sid": 370463806003859,
+					"parameters": {
+						"tag": "\"dialogFinished\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 431791409196240,
+					"parameters": {
+						"animation": "\"Idle_Front\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Player",
+					"sid": 753330595712127,
+					"parameters": {
+						"instance-variable": "BlockedToCutscene",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 509394810414992,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "pick-by-unique-id",
+							"objectClass": "SpotviewsTrigger",
+							"sid": 813097419054665,
+							"parameters": {
+								"unique-id": "68"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait-for-signal",
+							"objectClass": "System",
+							"sid": 679740869140810,
+							"parameters": {
+								"tag": "\"dialogFinished\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "SpotviewsTrigger",
+							"sid": 676534985142369,
+							"parameters": {
+								"x": "174.656194",
+								"y": "193.131095"
+							}
+						}
+					],
+					"sid": 643466841172644
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-fade-out-finished",
+					"objectClass": "LayoutFadeTransitor",
+					"sid": 694316844093803,
+					"behaviorType": "Fade"
+				}
+			],
+			"actions": [
+				{
+					"id": "call-function",
+					"objectClass": "Function",
+					"sid": 842228077765201,
+					"parameters": {
+						"name": "\"SetDialogueBox\"",
+						"parameter-n": [
+							"\"1\""
+						]
+					}
+				}
+			],
+			"sid": 323683112817345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "StartJudgmentTriggers",
+					"sid": 190809570813737,
+					"parameters": {
+						"comparison": 0,
+						"number": "0"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 433404595489681,
+					"parameters": {
+						"object": "StartJudgmentTriggers"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 432375754214003,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 539082656495493
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 862723209903377,
+							"parameters": {
+								"object-to-create": "Z_Balloon",
+								"layer": "\"Player\"",
+								"x": "Player.X",
+								"y": "Player.Y - 15",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "Z_Balloon",
+							"sid": 623587649020414,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"x": true,
+								"y": true,
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "set-scale",
+							"objectClass": "Z_Balloon",
+							"sid": 385469169125428,
+							"parameters": {
+								"scale": "0.5"
+							}
+						}
+					],
+					"sid": 360563863550017
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 215924876684235,
+							"parameters": {
+								"key": 90
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 652280589669529,
+							"parameters": {
+								"gamepad": "0",
+								"button": "button-a"
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 317048852169721,
+							"parameters": {
+								"gamepad": "0",
+								"button": "button-b"
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 907861040524669,
+							"parameters": {
+								"gamepad": "0",
+								"button": "button-x"
+							}
+						},
+						{
+							"id": "on-button-pressed",
+							"objectClass": "Gamepad",
+							"sid": 985052708550487,
+							"parameters": {
+								"gamepad": "0",
+								"button": "button-y"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 751515755820729,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 931757878861183,
+									"parameters": {
+										"instance-variable": "Spotviewing"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 945277213052317,
+									"parameters": {
+										"seconds": "0.05"
+									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 119059229308095,
+									"parameters": {
+										"instance-variable": "Spotviewing",
+										"value": "true"
+									}
+								},
+								{
+									"callFunction": "SpotviewDialog",
+									"sid": 775391084965990,
+									"parameters": [
+										"1"
+									]
+								},
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 106506223743689,
+									"parameters": {
+										"object-to-create": "Sprite_NPCs",
+										"layer": "\"NPCs\"",
+										"x": "177",
+										"y": "56",
+										"create-hierarchy": false,
+										"template-name": "\"\""
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite_NPCs",
+									"sid": 335543574842962,
+									"parameters": {
+										"animation": "\"Umeme\"",
+										"from": "beginning"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "StartJudgmentTriggers",
+									"sid": 184753972494475,
+									"parameters": {
+										"frame-number": "1"
+									}
+								},
+								{
+									"id": "set-size",
+									"objectClass": "StartJudgmentTriggers",
+									"sid": 100859664758440,
+									"parameters": {
+										"width": "43",
+										"height": "12"
+									}
+								},
+								{
+									"id": "set-position",
+									"objectClass": "StartJudgmentTriggers",
+									"sid": 402316749425623,
+									"parameters": {
+										"x": "175",
+										"y": "73"
+									}
+								}
+							],
+							"sid": 844535489030816
+						}
+					],
+					"isOrBlock": true
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 159458294187888,
+					"parameters": {
+						"object": "StartJudgmentTriggers"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 990184418777167,
+					"parameters": {
+						"object": "AmbientSwitcher"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Z_Balloon",
+					"sid": 219164852460643
+				}
+			],
+			"sid": 298150295649350
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 112390068874122,
+					"parameters": {
+						"object": "StartJudgmentTriggers"
+					}
+				},
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "StartJudgmentTriggers",
+					"sid": 874184472659859,
+					"parameters": {
+						"comparison": 0,
+						"number": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "call-function",
+					"objectClass": "Function",
+					"sid": 323471728241161,
+					"parameters": {
+						"name": "\"SetDialogueBox\"",
+						"parameter-n": [
+							"\"2\""
+						]
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "StartJudgmentTriggers",
+					"sid": 717807867199366
+				},
+				{
+					"id": "set-position",
+					"objectClass": "AmbientSwitcher",
+					"sid": 968958287141776,
+					"parameters": {
+						"x": "174",
+						"y": "318"
+					}
+				}
+			],
+			"sid": 424479533217036,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "pick-by-unique-id",
+							"objectClass": "SpotviewsTrigger",
+							"sid": 837898980099468,
+							"parameters": {
+								"unique-id": "66"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "SpotviewsTrigger",
+							"sid": 136925596446925
+						}
+					],
+					"sid": 752673731292465
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "pick-by-unique-id",
+							"objectClass": "SpotviewsTrigger",
+							"sid": 769064848177388,
+							"parameters": {
+								"unique-id": "67"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "SpotviewsTrigger",
+							"sid": 526686345742045,
+							"parameters": {
+								"x": "175",
+								"y": "45"
+							}
+						}
+					],
+					"sid": 617361247356522
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "dcPortraits",
+					"sid": 521244929117247
+				}
+			],
+			"actions": [
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "Player",
+					"sid": 366741415007775,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"input": "stop-ignoring"
+					}
+				}
+			],
+			"sid": 616511714933637
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-arrived",
+					"objectClass": "oCamera",
+					"sid": 419252222544826,
+					"behaviorType": "MoveTo"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-max-speed",
+					"objectClass": "oCamera",
+					"sid": 832532635976269,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"max-speed": "38"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "oCamera",
+					"sid": 413171812011989,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"speed": "38"
+					}
+				}
+			],
+			"sid": 696886697949843
+		}
+	],
+	"sid": 959883440818292
+}

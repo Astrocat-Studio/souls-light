@@ -1,0 +1,703 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 33600,
+	"name": "Soul's Light",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Function",
+			"name": "Function",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NodeWebkit",
+			"name": "NW.js",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Text input",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "XML",
+			"name": "XML",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Persist",
+			"name": "Persist",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "brightness",
+			"name": "Brightness",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "inverse",
+			"name": "Inverse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "setcolor",
+			"name": "Set color",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "tint",
+			"name": "Tint",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "3ckijek0kck",
+	"objectTypes": {
+		"items": [
+			"Keyboard",
+			"Mouse",
+			"Audio",
+			"Browser",
+			"Function",
+			"NWjs",
+			"AJAX",
+			"XML",
+			"DebugDialog",
+			"focodeluz",
+			"Array",
+			"Gamepad",
+			"farmandoxp"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"CosmicCreepsLogo",
+					"AstroCatLogo",
+					"AdvertText",
+					"LogoOfAcademy"
+				],
+				"subfolders": [],
+				"name": "GameLoad"
+			},
+			{
+				"items": [
+					"ManuBotaum",
+					"MenLogou",
+					"Menu",
+					"Menubg",
+					"Estrelas"
+				],
+				"subfolders": [],
+				"name": "MainMenu"
+			},
+			{
+				"items": [
+					"Player",
+					"KeyItems",
+					"Z_Balloon",
+					"Sprite_NPCs",
+					"Barrier"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"CasaSoberbo",
+							"Mansion_1ndFloor",
+							"Mansion_2ndFloor",
+							"Mansion_Bathroom",
+							"WorldMap",
+							"School"
+						],
+						"subfolders": [],
+						"name": "Scenarys"
+					}
+				],
+				"name": "Assets"
+			},
+			{
+				"items": [
+					"Obj_CollisionMap",
+					"oCamera",
+					"KeyItemsTrigger",
+					"SpotviewsTrigger",
+					"AmbientSwitcher",
+					"LayoutFadeTransitor",
+					"StartJudgmentTriggers",
+					"musicSwitcher",
+					"Glitch"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"onHitNPCTrigger",
+							"triggerAreaNPC"
+						],
+						"subfolders": [],
+						"name": "EventDialogTriggers"
+					}
+				],
+				"name": "SystemObjects"
+			},
+			{
+				"items": [
+					"dcPortraits",
+					"dcText",
+					"Chatbox"
+				],
+				"subfolders": [
+					{
+						"items": [
+							"textDecision1",
+							"textDecision2",
+							"decisionTitle",
+							"textDecision3",
+							"textDecision4"
+						],
+						"subfolders": [],
+						"name": "Final"
+					}
+				],
+				"name": "DialogueBox"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"TextDecisions"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Main Menu",
+			"GameLoad",
+			"Credits"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Buffer"
+				],
+				"subfolders": [],
+				"name": "System"
+			},
+			{
+				"items": [
+					"Start_Judgment_Hall",
+					"GameWorld",
+					"Judgment_Hall"
+				],
+				"subfolders": [],
+				"name": "World"
+			}
+		]
+	},
+	"eventSheets": {
+		"items": [
+			"@Main",
+			"_Player",
+			"$GameVariables"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"@MainMenu",
+					"@GameLoad",
+					"@StartJudgmentHall",
+					"@Credits"
+				],
+				"subfolders": [],
+				"name": "ScenesSheets"
+			}
+		]
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 676741843924423,
+					"script-info": {
+						"purpose": "main"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "SFX_CosmicCreepsLogo.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 861022713223783,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SFX_Glitch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 828389795224201,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "walk 1 fast.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 113052605199211,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "walk 2 medium.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 851846992695818,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "walk 3 slow.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 560224101372144,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SFX_Dialogue.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 497285152879416,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "pickupCoin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 921851219054576,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SFX_MainMenuButton.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 727340166906398,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SFX_SoberboPunch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 713060600428601,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SFX_SuperGlitch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 568141320486010,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "GameStart.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 498570496841147,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "GameStartv2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 619527327277387,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "GameStart_Song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 207807858724198,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "MainMenu_Song (Fast).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 624178253233477,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "MainMenu_Song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 494387685464580,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SoberboSoul_Song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 468438143420635,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Credits_Song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 741261010083474,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "DepressiveSoul__Song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 645926111143522,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "External_Song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 203189274693412,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Final_Redemption.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 144167416943789,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [
+				{
+					"name": "Pixel-UniCode.ttf",
+					"type": "application/font-sfnt",
+					"sid": 646601277721188,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 224083446755202,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-114.png",
+					"type": "image/png",
+					"sid": 623922318915363,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 148667024756564,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 280330160275436,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 246470154590194,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 811041757001618,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [
+				{
+					"name": "pt-br.xml",
+					"type": "text/xml",
+					"sid": 747275670304260,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.1",
+		"author": "Cosmic Creeps",
+		"authorEmail": "contatocosmiccreeps@gmail.com",
+		"authorWebsite": "https://cosmic-creeps.itch.io/",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": true,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"renderingMode": "2d",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "none",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders"
+	},
+	"viewportWidth": 160,
+	"viewportHeight": 90,
+	"firstLayout": "GameLoad"
+}

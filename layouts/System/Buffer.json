@@ -1,0 +1,967 @@
+{
+	"name": "Buffer",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "oCamera",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 38,
+								"acceleration": 60,
+								"deceleration": 60,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 109,
+						"y": 39,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "dcPortraits",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Player_Sad",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {
+						"ActualSpeecher": "",
+						"ActualMood": "",
+						"HaveToBlink": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 5,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 0.5,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"effects": {
+						"Inverse": {
+							"isEnabled": false,
+							"parameters": {
+								"intensity": 1
+							}
+						}
+					},
+					"world": {
+						"x": 24,
+						"y": 92,
+						"width": 49,
+						"height": 75,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Chatbox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 53,
+						"y": 58,
+						"width": 98,
+						"height": 26,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "dcText",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Pixel-UniCode",
+						"size": 3,
+						"line-height": -4,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 14,
+					"instanceVariables": {
+						"shakingY": 0.15,
+						"shakingX": 0.15,
+						"wavingZ": 1,
+						"wavingY": 3,
+						"wavingX": 45,
+						"isRainbow": false,
+						"isWaving": false,
+						"isShaking": false,
+						"bufferTextEffects": "",
+						"typeWriterTimer": 0,
+						"textBuffer": "",
+						"Typewriting": "",
+						"dialogID": 0,
+						"actualText": 1,
+						"textAmount": 0,
+						"actualTextColor": "",
+						"DialogueEngine": false,
+						"CanSkip": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"SetColor": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									1,
+									1,
+									1,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 57,
+						"y": 62,
+						"width": 88.87242207206006,
+						"height": 22.565383597599393,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "KeyItems",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Carta_de_resultado_vestibular",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {
+						"MoveTo": {
+							"properties": {
+								"max-speed": 400,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 0.15,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 79.99999966213838,
+						"y": 33.34171961548621,
+						"width": 76,
+						"height": 57,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Z_Balloon",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 55.69190050870246,
+						"y": 132.25951685971563,
+						"width": 13,
+						"height": 15,
+						"originX": 0.5384615384615384,
+						"originY": 1.5333333333333334,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "triggerAreaNPC",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": -58.30284073381415,
+						"y": -40.63383824882496,
+						"width": 63,
+						"height": 63,
+						"originX": 0.5079365079365079,
+						"originY": 0.49206349206349204,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "decisionTitle",
+					"properties": {
+						"text": "Então, quais foram as suas conclusões?",
+						"enable-bbcode": true,
+						"font": "Pixel-UniCode",
+						"size": 3,
+						"line-height": -4,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.7607843137254902,
+							0.32941176470588235,
+							0.19607843137254902,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 147,
+					"instanceVariables": {
+						"shakingY": 0.15,
+						"shakingX": 0.15,
+						"wavingZ": 1,
+						"wavingY": 3,
+						"wavingX": 45,
+						"isRainbow": false,
+						"isWaving": false,
+						"isShaking": false,
+						"bufferTextEffects": "",
+						"typeWriterTimer": 0,
+						"textBuffer": "",
+						"Typewriting": "",
+						"dialogID": 0,
+						"actualText": 1,
+						"textAmount": 0,
+						"actualTextColor": "",
+						"DialogueEngine": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"SetColor": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									0.21568627450980393,
+									0.09803921568627451,
+									0.2,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 64.75023919504503,
+						"y": 94.99855120145178,
+						"width": 92,
+						"height": 6,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "textDecision1",
+					"properties": {
+						"text": "Pessoas são complicadas… (Frieza)",
+						"enable-bbcode": true,
+						"font": "Pixel-UniCode",
+						"size": 3,
+						"line-height": -4,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 148,
+					"instanceVariables": {
+						"shakingY": 0.15,
+						"shakingX": 0.15,
+						"wavingZ": 1,
+						"wavingY": 3,
+						"wavingX": 45,
+						"isRainbow": false,
+						"isWaving": false,
+						"isShaking": false,
+						"bufferTextEffects": "",
+						"typeWriterTimer": 0,
+						"textBuffer": "",
+						"Typewriting": "",
+						"dialogID": 0,
+						"actualText": 1,
+						"textAmount": 0,
+						"actualTextColor": "",
+						"DialogueEngine": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"SetColor": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									1,
+									1,
+									1,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 65.75023919504503,
+						"y": 100.99855120145178,
+						"width": 45,
+						"height": 6,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "textDecision2",
+					"properties": {
+						"text": "Pessoas são únicas... (Empatia)",
+						"enable-bbcode": true,
+						"font": "Pixel-UniCode",
+						"size": 3,
+						"line-height": -4,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 149,
+					"instanceVariables": {
+						"shakingY": 0.15,
+						"shakingX": 0.15,
+						"wavingZ": 1,
+						"wavingY": 3,
+						"wavingX": 45,
+						"isRainbow": false,
+						"isWaving": false,
+						"isShaking": false,
+						"bufferTextEffects": "",
+						"typeWriterTimer": 0,
+						"textBuffer": "",
+						"Typewriting": "",
+						"dialogID": 0,
+						"actualText": 1,
+						"textAmount": 0,
+						"actualTextColor": "",
+						"DialogueEngine": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"SetColor": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									1,
+									1,
+									1,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 65.75023919504503,
+						"y": 106.99855120145178,
+						"width": 45,
+						"height": 6,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "textDecision3",
+					"properties": {
+						"text": "O mundo é injusto... (Pessimismo)",
+						"enable-bbcode": true,
+						"font": "Pixel-UniCode",
+						"size": 3,
+						"line-height": -4,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 150,
+					"instanceVariables": {
+						"shakingY": 0.15,
+						"shakingX": 0.15,
+						"wavingZ": 1,
+						"wavingY": 3,
+						"wavingX": 45,
+						"isRainbow": false,
+						"isWaving": false,
+						"isShaking": false,
+						"bufferTextEffects": "",
+						"typeWriterTimer": 0,
+						"textBuffer": "",
+						"Typewriting": "",
+						"dialogID": 0,
+						"actualText": 1,
+						"textAmount": 0,
+						"actualTextColor": "",
+						"DialogueEngine": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"SetColor": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									1,
+									1,
+									1,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 110.75023919504503,
+						"y": 100.99855120145178,
+						"width": 45,
+						"height": 6,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "textDecision4",
+					"properties": {
+						"text": "É culpa do acaso... (Objetividade)",
+						"enable-bbcode": true,
+						"font": "Pixel-UniCode",
+						"size": 3,
+						"line-height": -4,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 151,
+					"instanceVariables": {
+						"shakingY": 0.15,
+						"shakingX": 0.15,
+						"wavingZ": 1,
+						"wavingY": 3,
+						"wavingX": 45,
+						"isRainbow": false,
+						"isWaving": false,
+						"isShaking": false,
+						"bufferTextEffects": "",
+						"typeWriterTimer": 0,
+						"textBuffer": "",
+						"Typewriting": "",
+						"dialogID": 0,
+						"actualText": 1,
+						"textAmount": 0,
+						"actualTextColor": "",
+						"DialogueEngine": false
+					},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"SetColor": {
+							"isEnabled": false,
+							"parameters": {
+								"color": [
+									1,
+									1,
+									1,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 110.75023919504503,
+						"y": 106.99855120145178,
+						"width": 45,
+						"height": 6,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Glitch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 142,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 70.99064143787905,
+						"y": 174.40911215963519,
+						"width": 160,
+						"height": 90,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							0.7137254901960784,
+							0.20784313725490197,
+							0.20784313725490197,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0,
+						"blendMode": "additive"
+					}
+				}
+			],
+			"sid": 443660670829620,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 1",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "musicSwitcher",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 157,
+					"instanceVariables": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": -52.48698043823242,
+						"y": 55.02253723144531,
+						"width": 18.880108339423543,
+						"height": 33.01454946552823,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 510414640941528,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 133906304697768,
+	"nonworld-instances": [
+		{
+			"type": "XML",
+			"properties": {},
+			"uid": 17,
+			"instanceVariables": {}
+		},
+		{
+			"type": "Array",
+			"properties": {
+				"width": 9,
+				"height": 2,
+				"depth": 1
+			},
+			"uid": 26,
+			"instanceVariables": {}
+		}
+	],
+	"effectTypes": [],
+	"width": 160,
+	"height": 90,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": null
+}

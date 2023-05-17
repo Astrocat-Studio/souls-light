@@ -1,0 +1,587 @@
+<DialogSystem>
+    <Events>
+		<event id="1">
+			<dialog texts="3">
+				<text speecher="Player" mood="Normal" colors="255,255,255">Ah...</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Minha cabeça.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Onde... Onde é que eu tô?</text>
+			</dialog>
+		</event>
+		<event id="2">
+			<dialog texts="10">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Oi.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você provavelmente está se perguntando: Quem sou eu? Onde eu estou?</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Isso é algo que você vai descobrir ao longo de sua passagem…</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Mais saiba que você tem um propósito a cumprir.</text>
+				<text speecher="Player" mood="Normal" colors="173,50,52">O que eu tenho que fazer?</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você irá presenciar duas almas de pessoas mortas nesse mundo.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Cada uma com suas particularidades.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Seu propósito é conhecê-las, o quanto puder. </text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">A partir disso, você poderá iluminar o seu destino, e o deles.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Volte para mim quando você tiver terminado.</text>
+			</dialog>
+		</event>
+		
+		<!-- ====================================================================== Dialogos do Soberbo ====================================================================== -->
+		
+		<event id="5500">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Hã... O quê?</text>
+			</dialog>
+		</event>
+		<event id="5501">
+			<dialog texts="5">
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0" effect="shaking">VAI EMBORA! RALA O PÉ VAGABUNDINHO!</text>
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0">VOCÊ NÃO VAI PEGAR UMA MOEDA SEQUER!</text>
+				<text speecher="Player" mood="Scared" colors="255,255,255">Eu não quero o seu dinheiro. Eu nem sei quem você é…</text>
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0">Você fala isso agora, mas na primeira oportunidade você tentará tirar de mim tudo o que me importa.</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Vá embora enquanto eu tenho paciência e [color=#ff0000]não dê mais um passo sequer.[/color]</text>
+			</dialog>
+		</event>
+		<event id="5502">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0" effect="shaking">Em que parte de “Vá embora” você não entendeu?</text>
+			</dialog>
+		</event>
+		
+		<event id="5503">
+			<dialog texts="7">
+				<text speecher="Player" mood="Normal" colors="255,255,255">Essa foto… é você e sua mãe?</text>
+				<text speecher="Soberbo" mood="NoInterest" colors="255,255,255">Onde… onde você encontrou isso?</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Se acha que eu vou te pagar por ter achado, está enganado.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Mas obrigado.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Você parece amar bastante a sua mãe.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Ela foi tudo pra mim, eu… não…</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Eu não seria nada se não fosse ela.</text>
+			</dialog>
+		</event>
+		
+		<event id="5504">
+			<dialog texts="12">
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0" effect="shaking" shakescreen="true">VOCÊ AINDA NÃO DESISTIU DE VIR AQUI ME ROUBAR??</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Eu não quero te roubar.</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Você não vai me enganar.</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Você não entende… não é assim que funciona.</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Você não pode simplesmente achar que a vida é fácil e tentar tirar dos outros que deram duro.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Eu juro, eu não quero te roubar.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">E eu te entendo sim, eu sei o quanto você deu duro para conquistar toda sua riqueza.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Sua vida parece não ter sido tão fácil…</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Mas você fez o melhor que podia.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Obrigado pelas palavras, mas você está errada.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Não ache que eu tenho toda essa honra… E também… eu fiz isso por mim.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Pode por favor me deixar em paz agora? Essa conversa me deixou deprimido.</text>
+			</dialog>
+		</event>
+		
+		<event id="5505">
+			<dialog texts="8">
+				<text speecher="Player" mood="Sad" colors="255,255,255">Eu sinto muito…</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Pelo o que?</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Sua mãe…</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Ah… obrigado.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">O que mais dói, é ela não ter visto tudo o que eu conquistei.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Eu fico pensando, será que eu poderei vê-la novamente?</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Bom, isso não importa. Eu não posso passar a vida sofrendo por isso.</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Agora eu só preciso aproveitar a minha fortuna.</text>
+			</dialog>
+		</event>
+		
+		<event id="5506">
+			<dialog texts="22">
+				<text speecher="Player" mood="Sad" colors="255,255,255">Preciso te contar uma coisa… você não está mais vivo.</text>
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">O que?                 </text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Olhe ao redor, parece a vida que você conhecia antes?</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Eu acho que estamos em algum lugar em que se vai após a morte.</text>
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0" effect="shaking" shakescreen="true">VOCÊ ESTÁ ERRADO.       </text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Eu não vejo outra explicação.</text>
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0" effect="shaking" shakescreen="true">VOCÊ ESTÁ ERRADO.       </text>
+				<text speecher="Soberbo" mood="Raiva" colors="255,0,0" effect="shaking" shakescreen="true">VOCÊ ESTÁ ERRADO.       </text>
+				<text speecher="Soberbo" mood="Raiva" colors="255,255,255">VOCÊ ESTÁ ERRADO.       </text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Você está errado...       </text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Não pode ser possível.    </text>
+				<text speecher="Soberbo" mood="Crying" colors="255,255,255">Eu não fiz tudo que fiz para morrer agora!</text>
+				<text speecher="Soberbo" mood="Crying" colors="255,255,255">Eu tenho a vida inteira de riqueza para aproveitar.</text>
+				<text speecher="Soberbo" mood="Crying" colors="255,255,255">Tantas mulheres para conhecer, tantas coisas para comprar, tantos lugares para viajar.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Você está absolutamente errada.</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Olhe pra si mesmo, você nem mesmo parece humano mais.</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Isso não é possível.      </text>
+				<text speecher="Soberbo" mood="Preocupado" colors="255,255,255">O que vai acontecer comigo?</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Sinceramente eu não sei…   </text>
+				<text speecher="Soberbo" mood="Preocupado" colors="255,255,255">Eu não posso morrer agora, você entende não é?</text>
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Eu não consigo aceitar isso.</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Eu sinto muito.            </text>
+			</dialog>
+		</event>
+		
+		<event id="5507">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Eu já te agradeci, vá embora.</text>
+			</dialog>
+		</event>
+		
+		<event id="5508">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Eu não estou afim de papo furado, vai embora, entendeu?</text>
+			</dialog>
+		</event>
+		
+		<event id="5509">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Normal" colors="255,255,255">Quando eu disse que queria aproveitar minha fortuna, eu quero dizer sozinho. Vá embora.</text>
+			</dialog>
+		</event>
+		
+		<event id="5512">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Demonic" colors="255,0,0" effect="shaking">ESSA É A ÚLTIMA VEZ QUE EU VOU TE MANDAR SAIR DAQUI CRIATURA PATÉTICA E RIDÍCULA</text>
+			</dialog>
+		</event>
+		
+		<event id="5513">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Sad" colors="255,255,255">Eu queria poder ir para onde ela está.</text>
+			</dialog>
+		</event>
+		
+		<!-- ====================================================================== Fim Dialogos do Soberbo ====================================================================== -->
+		
+		<event id="7700">
+			<dialog texts="7">
+				<text speecher="Depressiva" mood="Normal" colors="255,0,0" effect="shaking">O QUE VOCÊ QUER?</text>
+				<text speecher="Player" mood="Scared" colors="255,255,255">Ah, nada… é que. Eu escutei você chorando.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Está tudo bem, não se preocupe. Eu só estou resfriada.</text>
+				<text speecher="Player" mood="Surprise" colors="255,255,255">Tem certeza? Eu tenho certeza que te escutei chorar.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Como você pode ter certeza de alguma coisa? O quão especial você acredita que é?</text>
+				<text speecher="Player" mood="Scared" colors="255,255,255">Calma.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255" effect="waving">Acho melhor você me deixar em paz.</text>
+			</dialog>
+		</event>
+
+		<event id="7701">
+			<dialog texts="9">
+				<text speecher="Player" mood="Normal" colors="255,255,255">Isso é seu, por acaso?</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Sim, fui eu que cometi esse desastre.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Por que desastre? Você conseguiu uma boa pontuação.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Não o suficiente para entrar na melhor faculdade de direito.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Isso é minimamente ridículo.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Não diga isso, por que você precisa necessariamente entrar na melhor faculdade de direito?</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Meus pais acreditam fortemente que essa é a única maneira de se obter sucesso na vida.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Através do [color=#ff0000]eficiente método de ensino[/color] deles eu aprendi que eles estão [color=#ff0000]absolutamente corretos[/color] em tudo que eles dizem.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255" effect="waving">Mas fazer o que né, a fracassada aqui estragou tudo.</text>
+			</dialog>
+		</event>
+
+		<event id="7702">
+			<dialog texts="8">
+				<text speecher="Player" mood="Surprise" colors="255,255,255">Você queria ser astronauta?</text>
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255" effect="waving">Hahaha, não sei como você ficou sabendo disso.</text>
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255" effect="waving">Talvez por um momento eu tenha tido esse delírio.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Mas eu sou realista, não tem como ter sucesso e reconhecimento com esse tipo de sonho bobo.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">E aliás, não acredito que eu teria a capacidade também.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">E eu tô bem cansada de ter esse tipo de preocupação…</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">No fim, nascemos, vivemos e morremos sem nada disso ter valor nenhum. Todo esse esforço pra no final tudo isso desaparecer como pó.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Se já me incomodou o suficiente, acho que você pode deixar me deixar aqui no meu [color=#30ae93]canto da reflexão[/color] e ir encontrar o que fazer.</text>
+			</dialog>
+		</event>
+
+		<event id="7703">
+			<dialog texts="13">
+				<text speecher="Player" mood="Normal" colors="255,255,255">Isso é mesmo seu? Eu só quero ajudar você…</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Esse jogo das pessoas fingirem que estão preocupadas comigo já está bem velho pra mim.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Quando você finalmente dá uma abertura para a pessoa te escutar… elas não entendem uma palavra.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Então já te adianto que não há nada com se preocupar. Estou bem sozinha.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Sempre estarei.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Então está tudo bem com você mesmo?</text>
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255" effect="waving">Isso não é da sua conta…</text>
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255">E de qualquer forma, pra que viver sendo que nada disso tem propósito, nada importa pois no final não existirá nada.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Então quando você joga um jogo que está gostando muito… só porque não faz sentido jogar ele você vai deixar de jogar? Sem saber o que acontece no final?</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">E a vida é especial justamente por não ter como jogar de novo assim como em um vídeogame.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Isso pode até ser verdade, mas o jogo não está sendo divertido para mim.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">A vida pode ter uma reviravolta assim como em um jogo e começar a te divertir.</text>
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255" effect="waving">Hahaha, eu duvido.</text>
+			</dialog>
+		</event>
+
+		<event id="7704">
+			<dialog texts="11">
+				<text speecher="Player" mood="Sad" colors="255,255,255">Eu sinto muito você parece uma pessoa legal e muito inteligente.</text>
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Você sente muito pelo o quê?</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Sua vida ter acabado dessa forma.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Então… eu estou morta?</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Sim.</text>
+				<text speecher="Depressiva" mood="Surprise" colors="255,255,255">Então existe algo depois que morremos?</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Isso é um pouco reconfortante, mas assustador ainda sim.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">E também... mais uma coisa em que eu estava errada.</text>
+				<text speecher="Player" mood="Sad" colors="255,255,255">Acho que o seu único erro de verdade foi não ter se dado a chance de ter vivido uma vida feliz…</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">É… agora é tarde.</text>
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Pelo menos agora eu acho que vou poder ter paz… eu espero.</text>
+			</dialog>
+		</event>
+
+		<event id="7705">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Normal" colors="255,255,255">Me… deixe… em… paz…</text>
+			</dialog>
+		</event>
+
+		<event id="7706">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Sad" colors="255,255,255">Pode ir, a senhorita fracasso já teve o bastante da dose de humilhação.</text>
+			</dialog>
+		</event>
+
+		<event id="7707">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255" effect="waving">Não estamos com toda essa intimidade pra você achar que pode ficar me perturbando o tempo todo.</text>
+			</dialog>
+		</event>
+
+		<event id="7708">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Sarcasm" colors="255,255,255" effect="waving">A não ser que você magicamente resolva todos os problemas da minha vida, não tem por que continuar me incomodando.</text>
+			</dialog>
+		</event>
+
+		<event id="7709">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Demonic" colors="255,0,0" effect="shaking">Próximo “diálogo” que tivermos, você com certeza irá se arrepender.</text>
+			</dialog>
+		</event>
+
+		<event id="7710">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Smile" colors="153,204,255" effect="waving">Pra mim o mais lindo de ser astronauta é poder ver imensidão do universo comparado a nossa existência.</text>
+			</dialog>
+		</event>
+
+		<!-- ====================================================================== Criatura Final Dialog ====================================================================== -->
+
+		<event id="9900">
+			<dialog texts="1">
+				<text speecher="Umeme" mood="Normal" colors="153,204,255">Então, quais foram as suas conclusões?</text>
+			</dialog>
+		</event>
+
+		<event id="9901">
+			<dialog texts="2">
+				<text speecher="Player" mood="Normal" colors="255,255,255">Acho que as pessoas são complicadas demais, eu não gosto muito de lidar com o problema dos outros.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">E afinal, cada um tem a sua própria escuridão para lidar.</text>
+			</dialog>
+		</event>
+
+		<event id="9902">
+			<dialog texts="2">
+				<text speecher="Player" mood="Normal" colors="255,255,255">Eu conheci duas pessoas individualmente únicas que tiveram um fim triste.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">São pessoas que sofreram durante suas vidas e morreram sem ter paz em suas almas.</text>
+			</dialog>
+		</event>
+
+		<event id="9903">
+			<dialog texts="2">
+				<text speecher="Player" mood="Normal" colors="255,255,255">O mundo foi injusto com essas pessoas, elas não mereciam nada disso.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Definitivamente o mundo não é um bom lugar. É o próprio inferno.</text>
+			</dialog>
+		</event>
+
+		<event id="9904">
+			<dialog texts="2">
+				<text speecher="Player" mood="Normal" colors="255,255,255">O mundo é um caos e uma junção estranha de acasos.</text>
+				<text speecher="Player" mood="Normal" colors="255,255,255">Essas pessoas apenas tiveram má sorte com as probabilidades. E infelizmente não souberam lidar com os próprios problemas e abraçaram a escuridão.</text>
+			</dialog>
+		</event>
+
+		<event id="9905">
+			<dialog texts="7">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Interessante…</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Bom, chegou a hora de eu te dar respostas.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você está aqui com o propósito de julgar essas duas almas.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você poderá escolher entre manda-los para a luz, para escuridão profunda, ou mantê-los aqui por mais tempo.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Após você realizar essa última tarefa, você será iluminado com a verdade.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Então, você conheceu uma alma que é peculiarmente grande e soberba.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Como você acha que ele deve ser julgado?</text>
+			</dialog>
+		</event>
+
+		<event id="9906">
+			<dialog texts="3">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Certo.                                    </text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você também conheceu uma alma que rejeita sua própria existência.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Como você acha que ela deve ser julgada?</text>
+			</dialog>
+		</event>
+
+		<event id="9907">
+			<dialog texts="9">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Certo.                                    </text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Agora finalmente você obterá suas respostas.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você morreu.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você morreu e assim como essas pessoas, também teve um final trágico.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Pra dizer a verdade, você é uma dessas pessoas.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Escolhi que o seu julgamento fosse um pouco diferente…</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Não tem como ser injusto quando você mesmo está decidindo o seu próprio destino, não é mesmo?</text>
+				<text speecher="Player" mood="Normal" colors="173,50,52">E o que vai acontecer comigo agora?</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">O seu verdadeiro "Eu", você já decidiu o destino. Caso esteja curiosa, você…</text>
+			</dialog>
+		</event>
+
+		<event id="9908">
+			<dialog texts="1">
+				<text speecher="Umeme" mood="Normal" colors="255,0,0" effect="shaking">Foi para escuridão profunda.</text>
+			</dialog>
+		</event>
+
+		<event id="9909">
+			<dialog texts="1">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52" effect="waving">Foi para a luz.</text>
+			</dialog>
+		</event>
+
+		<event id="9910">
+			<dialog texts="1">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52" effect="shaking">Ficará mais tempo aqui.</text>
+			</dialog>
+		</event>
+
+		<event id="9911">
+			<dialog texts="1">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52" effect="shaking">Você, um eco do seu eu verdadeiro, se mesclará de volta ao seu verdadeiro eu. Onde quer que você o tenha mandado.</text>
+			</dialog>
+		</event>
+
+		<event id="9912">
+			<dialog texts="4">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Espero que tenha gostado dessa experiência.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">O mundo é um lugar cheio de almas atormentadas, cuide para não se tornar uma delas.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Afinal, esse jogo você só joga uma vez.</text>
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Até mais.</text>
+			</dialog>
+		</event>
+
+		<event id="9913">
+			<dialog texts="1">
+				<text speecher="Umeme" mood="Normal" colors="173,50,52">Você ainda não cumpriu com seu propósito. Volte quando estiver realmente pronto.</text>
+			</dialog>
+		</event>
+
+		<!-- ====================================================================== Área de Spotviews ====================================================================== -->
+		<event id="3340">
+			<dialog texts="1">
+				<text speecher="Soberbo" mood="Demonic" colors="0,0,0" effect="shaking">Cahf ah nafl mglw'nafh hh' ahor syha'h ah'legeth, ng llll or'azath syha'hnahh n'ghftephai n'gha ahornah ah'mglw'nafh</text>
+			</dialog>
+		</event>
+		<event id="3341">
+			<dialog texts="1">
+				<text speecher="Depressiva" mood="Demonic" colors="0,0,0" effect="shaking">Cahf ah nafl mglw'nafh hh' ahor syha'h ah'legeth, ng llll or'azath syha'hnahh n'ghftephai n'gha ahornah ah'mglw'nafh</text>
+			</dialog>
+		</event>
+	</Events>
+	
+	<!-- ====================================================================== Área de Spotviews ====================================================================== -->
+
+	<UI>
+		<Spotviews>
+			<spot id="6969">
+				<text>Essa barreira não me deixa passar, não consigo forçar para abrir.</text>
+			</spot>
+			<spot id="67">
+				<text>Essa criatura é bizarra, me causa um desconforto olhar pra ela.</text>
+			</spot>
+			<spot id="66">
+				<text>Isso é um portal, com uma galáxia??... Isso parece definitivamente perigoso.</text>
+			</spot>
+			<spot id="68">
+				<text>Eu acordei nesse lugar, mas como eu vim parar aqui? Eu não consigo me lembrar nem quem eu sou.</text>
+			</spot>
+			<spot id="1">
+				<text>Ei, venha aqui em cima para falar comigo.</text>
+			</spot>
+			<spot id="44">
+				<text>É uma arvore bem grande, só é estranho ela estar nascendo desse chão sólido.</text>
+			</spot>
+			<spot id="82">
+				<text>É uma arvore bem grande, só é estranho ela estar nascendo desse chão sólido.</text>
+			</spot>
+			<spot id="84">
+				<text>Esse poste de luz mal consegue iluminar ao seu redor... coitado.</text>
+			</spot>
+			<spot id="83">
+				<text>Esse poste de luz mal consegue iluminar ao seu redor... coitado.</text>
+			</spot>
+			<spot id="43">
+				<text>Esse arbusto está tão bem cuidado e podado...</text>
+			</spot>
+			<spot id="85">
+				<text>Esse arbusto está tão bem cuidado e podado...</text>
+			</spot>
+			<spot id="42">
+				<text>Essa placa não tem nada escrito.</text>
+			</spot>
+			<spot id="41">
+				<text>Está escrito na placa: "No final, todos os seres deixam de compreender a luz de forma subjetiva. Todos encontram a resposta dicotômica sobre a luz e sua representação absoluta."</text>
+			</spot>
+			<spot id="86">
+				<text>Esse saco de lixo está todo molhado e gosmento... ugh.</text>
+			</spot>
+			<spot id="87">
+				<text>Essa montanha de lixo me faz perceber o quanto de lixo as pessoas produzem durante a vida, muito provavelmente uma montanha dessa representa no minimo a produção de lixo de duas semanas de apenas uma familia.</text>
+			</spot>
+			<spot id="88">
+				<text>Há uma TV no meio do lixo...</text>
+			</spot>
+			<spot id="89">
+				<text>Uma máquina de lavar não tão antiga jogada no lixo.</text>
+			</spot>
+			<spot id="90">
+				<text>Esse saco de lixo está cheio de insetos.</text>
+			</spot>
+			<spot id="91">
+				<text>Esse saco de lixo tem apenas papéis, parece que foi separado para auxiliar na reciclagem.</text>
+			</spot>
+			<spot id="92">
+				<text>Uma casinha de cachorro, bem simples feito com materiais baratos. Infelizmente não tem nenhum cachorrinho aqui.</text>
+			</spot>
+			<spot id="93">
+				<text>Uma coleira e um pote de comida para cachorro.</text>
+			</spot>
+			<spot id="94">
+				<text>Um tanque de concreto, não está funcionando. Mas o chão está úmido como se caisse agua o tempo todo.</text>
+			</spot>
+			<spot id="95">
+				<text>Um varal com roupas penduradas. Tem uma camiseta de uniforme de escola, uma toalha e uma calça jeans infantil penduradas.</text>
+			</spot>
+			<spot id="97">
+				<text>Plantas e arbustos muito bem cuidados, são grandes e estão nessa estrutura muito chique da mansão.</text>
+			</spot>
+			<spot id="98">
+				<text>Plantas e arbustos muito bem cuidados, são grandes e estão nessa estrutura muito chique da mansão.</text>
+			</spot>
+			<spot id="138">
+				<text>Uma lata e um saco de lixo. Lixos comuns que vieram dessa casa simples.</text>
+			</spot>
+			<spot id="102">
+				<text>Uma cama improvisada no chão... não parece muito confortável pois não há proteção contra o chão úmido, duro e gelado.</text>
+			</spot>
+			<spot id="101">
+				<text>Uma caixa com roupas, documentos e diversos tipos de coisas. Parece ser onde guardavam todas suas coisas.</text>
+			</spot>
+			<spot id="104">
+				<text>Uma geladeira simples, ela tem só uma garrafão de agua e um pote de manteiga dentro.</text>
+			</spot>
+			<spot id="103">
+				<text>Essa cozinha é simples e tem um fogão e uma pia bem humilde. Parece super organizada e limpa, apesar da simplicidade.</text>
+			</spot>
+			<spot id="100">
+				<text>Um sofá bem velho e improvisado, não parece muito confortável.</text>
+			</spot>
+			<spot id="99">
+				<text>Uma TV antiga, em sua estante há vários filmes de VHS.</text>
+			</spot>
+			<spot id="105">
+				<text>Parece a porta de um banheiro. Está emperrada, não consigo abrir...</text>
+			</spot>
+			<spot id="78">
+				<text>Além da foto, há apenas coisas que se tem em gavetas... chaves, papéis e etc.</text>
+			</spot>
+			<spot id="106">
+				<text>Há uma chave cheia de adornos e um quadro com uma foto de uma familia rica.</text>
+			</spot>
+			<spot id="107">
+				<text>Um vaso com uma planta. Ela parece ser artificial.</text>
+			</spot>
+			<spot id="108">
+				<text>Eu consigo ver o profundo espaço lá fora através da janela. É arrepiador.</text>
+			</spot>
+			<spot id="112">
+				<text>Eu consigo ver o profundo espaço lá fora através da janela. É arrepiador.</text>
+			</spot>
+			<spot id="109">
+				<text>Esse sofá parece confortável, porém não parece que é frequentemente usado.</text>
+			</spot>
+			<spot id="135">
+				<text>Além da carta, dentro da gaveta há documentos como contas de energia e etc.</text>
+			</spot>
+			<spot id="111">
+				<text>Essa lareira parece ser uma local aconchegante para os dias frios. Em cima há quadros da familia dessa casa.</text>
+			</spot>
+			<spot id="110">
+				<text>Uma estante cheia de livros, grande maioria deles é de direito penal, direito patrimonial... muitos livros de direito.</text>
+			</spot>
+			<spot id="115">
+				<text>Uma estante cheia de livros, há muitos livros de biologia, anatomia, farmacologia.</text>
+			</spot>
+			<spot id="114">
+				<text>Uma estante cheia de livros, há muitos livros de patologias, imunologia, traumatologia.</text>
+			</spot>
+			<spot id="113">
+				<text>Uma estante cheia de livros, há muitos livros em geral, desde contos, fábulas e até mesmo livros de filosofia.</text>
+			</spot>
+			<spot id="116">
+				<text>Esse armário está trancado, mas parece ter diversos tipos de louças de prata e cristal.</text>
+			</spot>
+			<spot id="121">
+				<text>Imagino o prazer de poder tomar café da manhã com a luz do sol reluzindo dessa janela.</text>
+			</spot>
+			<spot id="117">
+				<text>Esse grande armário está trancado, não dá pra ver o que tem dentro, mas provavelmente mais itens de cozinha.</text>
+			</spot>
+			<spot id="118">
+				<text>Uma grande mesa de jantar, ideal pra um grande jantar em familia.</text>
+			</spot>
+			<spot id="120">
+				<text>Essa cozinha é muito legal e limpa, a pessoa que a usava provavelmente tinha orgulho dela.</text>
+			</spot>
+			<spot id="119">
+				<text>Uma geladeira, ela está cheio de comida. Mas não estou com fome agora.</text>
+			</spot>
+			<spot id="123">
+				<text>Um espelho grande todo trincado, não consigo me ver no reflexo.</text>
+			</spot>
+			<spot id="122">
+				<text>Um grande quadro em familia, a filha parece um pouco isolada do pai e da mãe.</text>
+			</spot>
+			<spot id="128">
+				<text>Guarda roupa cheio de roupas femininas, é um estilo bem clássico e formal inclusive.</text>
+			</spot>
+			<spot id="129">
+				<text>Um gaveteiro de canto de cama, nele há livros e meias.</text>
+			</spot>
+			<spot id="131">
+				<text>Essa cama parece muito bem arrumada para um quarto adolescente.</text>
+			</spot>
+			<spot id="130">
+				<text>Um gaveteiro de canto de cama, nele há livros e meias.</text>
+			</spot>
+			<spot id="136">
+				<text>Um local de estudo, há alguns livros em cima dele.</text>
+			</spot>
+			<spot id="124">
+				<text>Esse guarda roupa grande está cheio de roupas de mulher e homem. Estilo refinado, eu diria.</text>
+			</spot>
+			<spot id="125">
+				<text>Um gaveteiro de canto de cama com livros, jornais e coisas de adultos.</text>
+			</spot>
+			<spot id="126">
+				<text>Um gaveteiro de canto de cama cheio de... palmatórias?</text>
+			</spot>
+			<spot id="127">
+				<text>Uma cama bem grande, da vontade de subir em cima e começar a pular.</text>
+			</spot>
+			<spot id="132">
+				<text>Deve ser muito bom tomar um banho quente nessa banheira depois de um longo dia exaustivo.</text>
+			</spot>
+			<spot id="133">
+				<text>Duas pias no banheiro, talvez seja para duas pessoas escovar os dentes juntos.</text>
+			</spot>
+			<spot id="134">
+				<text>Uma lugar destinado para seres vivos fazerem suas evacuações.</text>
+			</spot>
+			<spot id="137">
+				<text>Um cesto de roupa suja, com... roupas sujas.</text>
+			</spot>
+		</Spotviews>
+	</UI>
+    <MenuConfig>
+    </MenuConfig>
+</DialogSystem>
+
+  

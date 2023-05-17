@@ -1,0 +1,145 @@
+{
+	"name": "textDecision4",
+	"plugin-id": "Text",
+	"sid": 152346465307746,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "shakingY",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 319747173998396
+		},
+		{
+			"name": "shakingX",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 994687592976440
+		},
+		{
+			"name": "wavingZ",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 366488172609492
+		},
+		{
+			"name": "wavingY",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 225367413410103
+		},
+		{
+			"name": "wavingX",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 265110381268454
+		},
+		{
+			"name": "isRainbow",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 220983233664480
+		},
+		{
+			"name": "isWaving",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 154113422535636
+		},
+		{
+			"name": "isShaking",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 895383421633427
+		},
+		{
+			"name": "bufferTextEffects",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 112162317582099
+		},
+		{
+			"name": "typeWriterTimer",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 880682632230622
+		},
+		{
+			"name": "textBuffer",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 823145738497820
+		},
+		{
+			"name": "Typewriting",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 888692363035162
+		},
+		{
+			"name": "dialogID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 555134758591746
+		},
+		{
+			"name": "actualText",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 154663360559970
+		},
+		{
+			"name": "textAmount",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 382432136006879
+		},
+		{
+			"name": "actualTextColor",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 253118493962567
+		},
+		{
+			"name": "DialogueEngine",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 282958652657745
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 636378612330280
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 382613192783724
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "setcolor",
+			"name": "SetColor"
+		}
+	]
+}
